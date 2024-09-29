@@ -44,3 +44,25 @@ ul#nav a:hover {
     border-radius: 5px; 
 }
 ul#nav li {display:inline-block}
+@media (max-width: 768px) {
+    .image-block {
+        display: block;
+        margin: 20px auto;
+    }
+    .image-block img {
+        height: auto;
+        width: 100%;
+    }
+    p {
+        width: 90%;
+    }
+    h1, h2 {
+        text-align: center;
+    }
+    footer ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
