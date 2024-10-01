@@ -1,27 +1,35 @@
-form label{
-color: #ffffff;  
-}
-       @media screen and (max-width: 480px) {
-        .background-image {
-            height: 300px;
-        }
-        h1 {
-            font-size: 24px;
-        }
-        p {
-            font-size: 16px;
-        }
-        form label {
-            font-size: 14px;
-        }
-        form input, form textarea, form button {
-            width: 100%;
-            margin-bottom: 10px;
-        }
-        .image-block img {
-            height: 200px;
-        }
+<!doctype html> 
+<html> 
+<head> 
+
+<link rel="stylesheet" href="style.css">
+<meta name=‘viewport’ content=“width=device-width, initial-scale=1”>
+<title>Business Website</title>
+<style type="text/css">
+    .image-block {
+        display: inline-block; 
+        text-align: center; 
+        margin: 0 10px; 
+        vertical-align: top; 
     }
+    .image-block img{
+        height: 300px; 
+        margin: 0 10px;
+    }
+    p{
+        color: #000000; 
+    }
+    .background-image {
+            background-image: url('backgroundpicCONTACTME.jpg'); 
+            height: 500px; 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover; 
+    }
+    form label{
+        color: #ffffff;  
+    }
+
 
 </style>
 
@@ -30,23 +38,23 @@ color: #ffffff;
 
 <body>
 <div class="background-image"> 
-<h1 style='color:rgb(201, 27, 27)'> Melody Rental </h1>
-<p style='color:rgb(253, 253, 253)'> Contact us!</p>
-<form action="#" method="POST">
-<label for="email">Email:</label>
-<input type="email" id="email" name="email" required>
-
-<label for="inquiry">Inquiry:</label>
-<textarea id="inquiry" name="inquiry" required></textarea>
-
-<button type="submit">Submit</button>
-</form>
-<p style='color:rgb(253, 253, 253)'> You can also reach us at +1 (123) 456 7980</p>
+    <h1 style='color:rgb(201, 27, 27)'> Melody Rental </h1>
+    <p style='color:rgb(253, 253, 253)'> Contact us!</p>
+    <form action="#" method="POST">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="inquiry">Inquiry:</label>
+        <textarea id="inquiry" name="inquiry" required></textarea>
+    
+        <button type="submit">Submit</button>
+    </form>
+    <p style='color:rgb(253, 253, 253)'> You can also reach us at +1 (123) 456 7980</p>
 </div>
 <footer> 
-<nav>
-<ul id="nav">
- <li><a href="assignment2ABOUTUS.html">About us</a></li>
+    <nav>
+        <ul id="nav">
+            <li><a href="assignment2ABOUTUS.html">About us</a></li>
             <li><a href="index.html">Home</a></li>
             <li><a href="assignment2CONTACTUS.html">Contact us</a></li>
         </ul>
